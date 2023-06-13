@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+#gameboard {
+  width: 600px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 0 auto;
+  position: relative;
+}
+
+#player {
+  height: 50px;
+  width: 80px;
+  background: yellowgreen;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.cart {
+  position: absolute;
+  height: 20px;
+  width: 10px;
+  background: yellowgreen;
+}
+
+.enemy {
+  position: absolute;
+  height: 20px;
+  width: 60px;
+  background: yellow;
+}
